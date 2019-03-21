@@ -1,0 +1,65 @@
+body {
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url("dp.jpg");
+      margin-top: 100px;
+      margin-bottom: 75px;
+
+                  
+}
+.resume{
+	margin: 20px auto;
+	width: 60%;
+	height: 100%;
+	overflow: auto;
+}
+/*Left portion*/
+.resume .res-left{
+	float: left;
+	background-image: url("blu5.jpg");
+	height: 80%;
+	width: 40%;
+	padding : 30px;
+	padding-top: 75px;
+	padding-bottom: 90px;
+
+}            
+/*Right portion*/
+.resume .res-right {
+	float: right;
+	background-image: url("pdp.jpg");
+	height: 100%;
+	width: 50%;
+	padding: 15px;
+	padding-bottom: 54px;
+	padding-top: 51px;
+
+}             
+/*for left rectangles*/  
+.resume .res-left .rectangle {
+  height: 25px;
+  width: 100px;
+  background-color: #555;
+  border-color: #fff;
+}    		
+/*for left side content with lines*/
+.resume .res-left .full {
+	width: 100%;
+}   
+.resume .res-left .half1 {
+	width: 50%;
+}
+.resume .res-left .half2 {
+	width: 50%;
+	width: 200px;
+	height: 3px;
+	float: right;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+/*for right rectangles*/
+.resume .res-right .s {
+	border: 3px solid red;
+	
+}
